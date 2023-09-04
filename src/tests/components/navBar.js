@@ -4,15 +4,23 @@ import Button from "./button";
 
 function NavBar() {
     return (
-    <header>
-        <h2>Logo</h2>
-        <ul>
-            <Button
-            id = "button-header"
-            name = "Teste broh"
-            />
-        </ul>
-    </header>
+        <header>
+            <h2>Logo</h2>
+            <ul>
+                <Button
+                    className="button-header"
+                    name="Sobre mim"
+                />
+                <Button
+                    className="button-header"
+                    name="Formações"
+                />
+                <Button
+                    className="button-header"
+                    name="Contatos"
+                />
+            </ul>
+        </header>
     );
 }
 
