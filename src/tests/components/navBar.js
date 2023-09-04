@@ -1,15 +1,17 @@
 import React from "react";
 import './css/navBar.css';
 
-const NavBar = () => {
-    <div>
+function NavBar() {
+    return (
+    <header>
         <h2>Logo</h2>
         <ul>
             <li>Sobre Mim</li>
             <li>Formações</li>
             <li>Contatos</li>
         </ul>
-    </div>
+    </header>
+    );
 }
 
-export default NavBar 
+export default NavBar;

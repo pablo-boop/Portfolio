@@ -1,6 +1,6 @@
 import React from "react";
-import './style.css'
-import NavBar from "./components/navBar";
+import './style.css';
+import NavBar from './components/navBar';
 
 const Main = () => {
     return(
