@@ -6,7 +6,7 @@ function NavBar() {
     return (
         <header>
             <h2>Logo</h2>
-            <ul>
+            <div id="buttons">
                 <Button
                     className="button-header"
                     name="Sobre mim"
@@ -19,7 +19,7 @@ function NavBar() {
                     className="button-header"
                     name="Contatos"
                 />
-            </ul>
+            </div>
         </header>
     );
 }
