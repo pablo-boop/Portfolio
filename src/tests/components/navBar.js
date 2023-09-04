@@ -1,14 +1,16 @@
 import React from "react";
 import './css/navBar.css';
+import Button from "./button";
 
 function NavBar() {
     return (
     <header>
         <h2>Logo</h2>
         <ul>
-            <li>Sobre Mim</li>
-            <li>Formações</li>
-            <li>Contatos</li>
+            <Button
+            id = "button-header"
+            name = "Teste broh"
+            />
         </ul>
     </header>
     );
